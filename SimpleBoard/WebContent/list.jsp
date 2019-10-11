@@ -41,6 +41,8 @@
 	</tr>
 <%		
 		}
+	}else{
+		out.print("<tr><td colspan = \"4\">글 정보 없음</td></tr>");
 	}
 %>
 </table>
